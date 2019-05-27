@@ -14,6 +14,7 @@ namespace SmartTicket.WebAppUI.Controllers
         public ActionResult Index()
         {
             //deneme
+            //update
             var x = cm.List();
             return View();
         }
