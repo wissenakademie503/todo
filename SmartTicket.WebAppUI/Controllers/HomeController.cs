@@ -13,6 +13,7 @@ namespace SmartTicket.WebAppUI.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            //deneme
             var x = cm.List();
             return View();
         }
